@@ -48,29 +48,32 @@ A comprehensive web application that uses machine learning to predict breast can
 
 Follow these steps in order to run all applications:
 
-### Step 1: Run Breast Cancer Prediction App
+### Step 1: **Run Breast Cancer Prediction App**
 
 Open a terminal and run:
-bash
+```bash
 cd breast
 cd Breast-Cancer-Predictor
 python app.py
+```
 This will start the breast cancer prediction service on http://localhost:5000
 
-### Step 2: Run Diabetes Prediction App
+### Step 2: **Run Diabetes Prediction App**
 
 Open a new terminal and run:
-bash
+```bash
 cd "Diabetes-Detection"
 cd "Diabetes Prediction App"
 python app.py
+```
 This will start the diabetes prediction service on http://localhost:5001
 
-### Step 3: Access the Main Application
+### Step 3: **Access the Main Application**
 
 Navigate to the templates folder and open index.html in your web browser:
-bash
+```bash
 cd templates
+```
 Open index.html in your preferred web browser
 
 ## Important Notes
@@ -84,7 +87,7 @@ Open index.html in your preferred web browser
    - Breast Cancer Prediction: http://localhost:5000
    - Diabetes Prediction: http://localhost:5001
 
-## Dependencies
+## **Dependencies**
 
 Install required dependencies using:
 bash
